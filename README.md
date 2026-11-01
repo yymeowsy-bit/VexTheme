@@ -1,61 +1,68 @@
-# Vermont Discord Theme
+# Vermont Discord Theme 💜
 
-A sleek, dark midnight purple theme for Discord mobile clients (such as Vendetta, Replugged, or Aliucord).
+A sleek, dark midnight purple theme designed for Discord mobile client loaders (such as Vendetta, Replugged, or Aliucord).
+
+<p align="center">
+  <img src="preview.png" width="600" alt="Vermont Theme Preview">
+</p>
 
 ---
 
-## 🎨 Preview & Features
+## 🎨 Features
 
-- **Primary Colors:** Deep obsidian black with vivid purple accents.
-- **Background:** Subtle anime background with optimized opacity (`0.25`) for maximum legibility.
-- **Contrast Fixed:** Clear, high-contrast text for easy reading.
+- **Obsidian Dark Scheme:** Deep dark base backgrounds (`#080808` and `#0D0D0D`) to reduce eye strain.
+- **Vivid Purple Accents:** Vibrant purple accents (`#8400FF`) for highlights and buttons.
+- **Enhanced Contrast:** High-visibility text colors tailored for reading clarity against dark overlays.
+- **Custom Artwork:** Optimized background image opacity (`0.25`) to display artwork without distracting from active text channels.
 
 ---
 
 ## 🚀 Installation Guide
 
-### Option 1: Direct Link (Recommended)
+### Option 1: Direct Fetch Link (Recommended)
 
-1. Open your modified Discord app on mobile.
-2. Go to **User Settings** $\rightarrow$ **Themes**.
+1. Open your modified Discord app on your device.
+2. Navigate to **User Settings** $\rightarrow$ **Themes**.
 3. Tap **Install Theme** or **Fetch Theme**.
-4. Paste the following URL:
-   ```text
-   https://yymeowsy-bit.github.io/VexTheme/Vermont.json
-   ```
-   *(Alternatively, use the raw GitHub link: `https://raw.githubusercontent.com/yymeowsy-bit/VexTheme/main/Vermont.json`)*
-5. Press **Install** and select **Apply Theme**.
+4. Paste the raw theme URL below:
+
+```
+https://raw.githubusercontent.com/yymeowsy-bit/VexTheme/main/Vermont.json
+```
+
+5. Tap **Install** and select **Apply Theme**.
 
 ---
 
-### Option 2: Manual File Load
+### Option 2: GitHub Pages Link
 
-1. Download the `Vermont.json` file directly from this repository.
-2. Transfer or save the file onto your device storage.
-3. Open Discord, navigate to **Settings** $\rightarrow$ **Themes**.
-4. Tap **Import from File** (or the folder icon) and choose `Vermont.json`.
+If your client loader supports GitHub Pages links, you can paste:
+
+```
+https://yymeowsy-bit.github.io/VexTheme/Vermont.json
+```
 
 ---
 
-## 🛠️ Customization
+## 🛠️ Customizing Background Visibility
 
-If you want to adjust the background image visibility, open `Vermont.json` in any text editor and change the `"alpha"` parameter at the bottom of the file:
+To adjust how visible the background image is, open `Vermont.json` and change the `"alpha"` parameter under the `"background"` section:
 
 ```json
 "background": {
-  "url": "YOUR_IMAGE_URL",
+  "url": "https://www.image2url.com/r2/default/images/1793504736205-46c3210e-9320-466b-9939-728fe2aeb21d.jpg",
   "alpha": 0.25,
   "size": "cover",
   "position": "center"
 }
 ```
 
-* **`0.15`** — Very faint watermark effect.
-* **`0.25`** — Balanced visibility (Default).
+* **`0.15`** — Very faint / minimal background watermark.
+* **`0.25`** — Balanced default (Recommended).
 * **`0.35`** — High image visibility.
 
 ---
 
 ## 📄 License
 
-Created by **vexis**. Free to use and edit!
+Created by **vexis**. Free to use, modify, and share!
