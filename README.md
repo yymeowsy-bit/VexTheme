@@ -1,6 +1,6 @@
 # Vermont Discord Theme 💜
 
-A sleek, dark midnight purple theme designed for Discord mobile client loaders (such as Vendetta, Replugged, or Aliucord).
+A sleek, dark midnight black theme designed for Discord mobile client loaders (such as Vendetta, Replugged, or Aliucord).
 
 <p align="center">
   <img src="preview.png" width="600" alt="Vermont Theme Preview">
@@ -11,7 +11,7 @@ A sleek, dark midnight purple theme designed for Discord mobile client loaders (
 ## 🎨 Features
 
 - **Obsidian Dark Scheme:** Deep dark base backgrounds (`#080808` and `#0D0D0D`) to reduce eye strain.
-- **Vivid Purple Accents:** Vibrant purple accents (`#8400FF`) for highlights and buttons.
+- **Vivid black Accents:** Vibrant purple accents (`#8400FF`) for highlights and buttons.
 - **Enhanced Contrast:** High-visibility text colors tailored for reading clarity against dark overlays.
 - **Custom Artwork:** Optimized background image opacity (`0.25`) to display artwork without distracting from active text channels.
 
